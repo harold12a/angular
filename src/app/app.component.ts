@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'herous';
+  title:string = 'Tour of Heroes';
+  num:number = 0;
+  incrementar(){ 
+    this.num++;
+   }
 }
